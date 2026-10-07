@@ -1,0 +1,17 @@
+# Large data: download or rebuild, see data/README.md
+data/srtm/*
+!data/srtm/.gitkeep
+data/processed/dem.mat
+data/processed/*.part
+
+# MATLAB
+*.asv
+*.m~
+*.mlx.autosave
+slprj/
+
+# OS and Office
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
